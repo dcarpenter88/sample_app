@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem "rails"
-gem 'sqlite3', '1.3.3'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
@@ -17,7 +16,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3-ruby'
+  gem 'sqlite3', '1.3.3'
 end
 
 # Gems used only for assets and not required
