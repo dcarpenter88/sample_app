@@ -18,6 +18,7 @@ group :production do
 end
 
 group :development, :test do
+  gem 'debugger'
   gem 'mysql2'
 end
 
